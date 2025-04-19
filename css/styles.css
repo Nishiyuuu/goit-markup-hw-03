@@ -60,7 +60,6 @@ img{
 }
 
 .header-menu-item{
-
 }
 
 .header-menu-item-link{
@@ -101,7 +100,9 @@ img{
     color: #404bbf;
 }
 
-.section-hero{
+.hero-container{
+    padding: 188px 0;
+    width: 100%;
     background-color: #2e2f42;
 }
 
@@ -112,6 +113,9 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    max-width: 496px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .section-hero-button{
@@ -123,6 +127,13 @@ img{
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 64px;
 }
 
 .section-hero-button:hover,
