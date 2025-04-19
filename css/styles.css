@@ -27,14 +27,13 @@ img{
 
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+    clip: rect(1px 1px 1px 1px);
     padding: 0;
+    border: 0 ;
+    height: 1px;
+    width: 1px;
     overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
-  }
+}
 
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -173,7 +172,7 @@ img{
 }
 
 .section-about-list-item{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-about-list-item-title{
