@@ -27,7 +27,10 @@ img{
 
 .visually-hidden {
     position: absolute;
-    clip: rect(1px 1px 1px 1px);
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
     padding: 0;
     border: 0 ;
     height: 1px;
